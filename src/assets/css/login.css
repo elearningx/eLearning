@@ -1,0 +1,71 @@
+:root{
+    --primary: '#49BBBD';
+}
+
+.login img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 5vh;
+}
+.login-form{
+    width: 75%;
+    margin: 0 auto;
+}
+.form-control{
+    border-radius: 30px;
+    padding: 15px;
+    border: 1px solid #49BBBD;
+}
+.form-control:focus,.form-check-input:focus {
+    box-shadow: 0 0 0 0.25rem #49bbbd54;
+}
+.form-check-input:checked {
+    background-color: #49BBBD;
+    border-color: #49BBBD;
+}
+a{
+    color: #49BBBD;
+    text-decoration: none;
+}
+::placeholder{
+    font-weight: 100;
+    font-size: 14px;
+}
+.active, .active:hover, .btn-theme-primary,.btn-theme-primary:hover{
+    background-color: #49BBBD;
+    padding: 10px;
+    border-radius: 30px;
+}
+.active{
+    transition: width .3s ease;
+}
+.btn-login{
+    width: 50%;
+    margin-top: 4rem;
+}
+nav{
+    background-color: rgba(73, 187, 189, 0.6);
+    padding: 10px;
+    border-radius: 50px;
+    width: 60%;
+    margin: 30px auto;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    width:50%;
+}
+
+nav a,.active, .btn-login,.btn-theme-primary,.btn-theme-primary:hover{
+    color: #ffffff;
+}
+p{
+    color: #5B5B5B;
+    font-size: 16px;
+    font-weight: 400
+;
+}
